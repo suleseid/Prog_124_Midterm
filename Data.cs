@@ -26,7 +26,7 @@ namespace Prog_124_Midterm
         internal static Member CurentMembers { get => curentMember; set => curentMember = value; }
         internal static Product CurentProducts { get => curentProduct; set => curentProduct = value; }
 
-        static void AddMemberToCollection(Member)
+        /*static void AddMemberToCollection(Member)
         {
             _members.Add(new Member);
         }
@@ -41,7 +41,7 @@ namespace Prog_124_Midterm
         static void UpdataCurrentProduct(Product)
         {
             curentProduct = _products;
-        }
+        }*/
     }
 
 }

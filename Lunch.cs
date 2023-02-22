@@ -20,13 +20,10 @@ namespace Prog_124_Midterm
         {
             return base.ToString() + $"_isCombo : {_isCombo}";
         }
-        public override bool InStock
+        public override bool InStock()
         {
-            get
-            {
-                if (isCombo) return true;
+            if (isCombo) return true;
                 return false;
-            }
         }
     }
 }
